@@ -1,0 +1,29 @@
+.brand {
+    background-color: #4793AF;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .brand h1 {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0;
+  }
+  
+  .brand h1 svg {
+    margin: 0 4vw; 
+    animation: moveLeftToRight 2s linear infinite alternate; 
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  

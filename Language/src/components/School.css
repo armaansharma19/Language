@@ -1,0 +1,47 @@
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 4vw 0; 
+    background-color: #4793AF;
+    border-radius: 2rem;
+  }
+  
+  .school img {
+    height: auto; 
+    max-width: 100%;
+    padding-bottom: 3vw;
+  }
+  
+  .school h2 {
+    font-size: 1.5rem; 
+  }
+  
+  .school p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+  
+  .school button {
+    background-color: #FFE0B9;
+    color: #607897;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .school {
+      width: 90%;
+    }
+
+    h2{
+      padding: 5 0vh;
+    }
+  }
+  
